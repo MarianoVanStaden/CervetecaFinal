@@ -4,7 +4,7 @@
       "nombre": "Kolsch",
       "precio": 200,
       "img": "https://www.alpuntodeventa.com.ar/wp-content/uploads/2297.jpg.webp",
-      "description": "Lorem ipsum dolor. ",
+      "description": "Existen muchas cervezas doradas y refrescantes. Pero frutadas y con destellos finales de lúpulo, sólo hay un estilo: la Kölsch. En Antares rescatamos la antigua receta de la cerveza favorita de los bebedores en colonia, Alemania, y la honramos desde 1998. En nuestra cocina, su legado sigue intacto.",
       "category": "Cerveza",
       "cantidad":0
     },
@@ -13,7 +13,7 @@
       "nombre": "Scotch",
       "precio": 220,
       "img": "https://www.cervezaantares.com/storage/app/uploads/public/615/715/9d9/6157159d9eaa7877306405.png",
-      "description": "Lorem ipsum dolor. ",
+      "description": "Escocia es tierra de cebada y la Scotch Ale lleva ese paisaje impregnado en su código genético. Rubí intenso. Seis grados de alcohol. Dulce y maltosa. La Antares más servida en nuestro Brewpub. Una fórmula a prueba del paso del tiempo.",
       "category": "Cerveza",
       "cantidad":0
     },
@@ -22,7 +22,7 @@
       "nombre": "Porter",
       "precio": 240,
       "img": "https://www.cervezaantares.com/storage/app/uploads/public/615/71a/d71/61571ad71dae6402852456.png",
-      "description": "Lorem ipsum dolor. ",
+      "description": "Maltas oscuras. Sabor y aroma penetrante y nocturno. Chocolate, azúcar negro y café. La Porter es la cerveza tributo de Antares a la cultura de los primeros pubs en el puerto de Londres. Cheers.",
       "category": "Cerveza",
       "cantidad":0
     },
@@ -31,7 +31,7 @@
       "nombre": "Juicy IPA",
       "precio": 280,
       "img": "https://www.cervezaantares.com/storage/app/uploads/public/61e/864/220/61e864220e306853000322.png",
-      "description": "Lorem ipsum dolor. ",
+      "description": "Una American IPA con sabores y aromas frutales intensos, cuerpo suave y sensación en boca con textura delicada, turbia. Se percibe menos amargor que en las IPAs tradicionales, pero el lúpulo siempre es dominante. ",
       "category": "Cerveza",
       "cantidad":0
     }
