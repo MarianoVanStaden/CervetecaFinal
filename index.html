@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS BOOTSTRAP 5-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- CSS PERSONALIZADOS -->
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+
+    <!-- <link rel="stylesheet" href="estilo.css"> -->
+
+    <title>Fruit Online</title>
+</head>
+
+<body id="body">
+
+  <nav class="navbar navbar-dark bg-primary navbar-expand-md sticky-top shadow">
+    <div class="container">
+        <!-- LOGO -->
+        <a href="#" class="navbar-brand">
+            <!-- LOGO COMO IMAGEN -->
+            <!-- <img src="/images/logo.png" alt="logo" width="150" height="auto"> -->
+
+            <!-- LOGO COMO TEXTO -->
+            <img src="images/logo.png" alt="logo" width="50" class="me-1">
+            Fruti <strong>Online</strong>
+        </a>
+        <!-- <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal"
+            aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar menú de navegación">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <!-- LINKS MENU -->
+        <div id="menu-principal">
+            <!-- <div class="collapse navbar-collapse" id="menu-principal"></div> -->
+            <ul class="navbar-nav ms-auto">
+                <!-- <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li> -->
+                <li><a class="cart sticky-top" href="carrito.html">
+                        <svg class="cartIcon text-white" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+                            <path
+                                d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        <span id="cartCounter"></span>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <!-- BUSCADOR -->
+    <div class="bg-secondary p-3 shadow">
+        <div class="input-group container">
+            <input type="text" id="inputSearch" class="form-control" placeholder="busca tu fruta favorita"
+                aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button type="button" id="search-button" class="btn btn-primary ms-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+                        </path>
+                    </svg>
+                    Buscar
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+<section class="proyectos py-4">
+    <div class="container">
+        <h4 class="fw-bold text-center pb-4">Ofertas del dia</h4>
+        <div class="row rowContainer mx-auto d-flex" id="container">
+            
+        </div>
+    </div>
+</section>
+<!-- <div id="container"></div> -->
+
+
+
+
+<script src='./js/main.js'></script>
+    <!-- ARCHIVOS BOOTSTRAP JAVASCRIPT -->
+    <script src="js/bootstrap/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/bootstrap/popover.js"></script>
+    <!-- SWEET ALERT -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
