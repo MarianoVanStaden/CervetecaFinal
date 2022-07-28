@@ -13,7 +13,7 @@
 //     id: "1",
 //     nombre: "Manzana roja",
 //     precio: 15000,
-//     img: "https://t1.ev.ltmcdn.com/es/posts/7/0/2/germinar_semillas_de_manzana_como_hacerlo_y_cuidados_2207_orig.jpg",
+//     img: "https://www.alpuntodeventa.com.ar/wp-content/uploads/2297.jpg.webp",
 //     description: "Lorem ipsum dolor. ",
 //     category: "Fruta",
 //     cantidad:0,
