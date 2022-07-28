@@ -3,7 +3,7 @@
       "id": "1",
       "nombre": "Kolsch",
       "precio": 2000,
-      "img": "https://www.alpuntodeventa.com.ar/wp-content/uploads/2297.jpg",
+      "img": "img/a.jpg",
       "description": "Lorem ipsum dolor. ",
       "category": "Cerveza",
       "cantidad":0
