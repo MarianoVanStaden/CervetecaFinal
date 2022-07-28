@@ -3,16 +3,16 @@
 SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
 ------------------------------------------*/
 .bg-primary {
-  background-color: #2fa910 !important;
+  background-color: #b8860b !important;
 }
 
 .text-primary {
-  color: #2fa910 !important;
+  color: #b8860b !important;
 }
 
 .btn-primary {
-  background-color: #2fa910 !important;
-  border-color: #2fa910 !important;
+  background-color: #b8860b !important;
+  border-color: #b8860b !important;
 }
 
 .btn-primary:hover,
@@ -21,13 +21,13 @@ SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
 }
 
 .btn-primary:active {
-  background-color: #154c07 !important;
-  border-color: #2fa910 !important;
+  background-color: #daa520 !important;
+  border-color: #b8860b !important;
 }
 
 .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(47, 169, 16, 0.5) !important;
-          box-shadow: 0 0 0 0.2rem rgba(47, 169, 16, 0.5) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(218, 165, 32, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(218, 165, 32, 0.5) !important;
 }
 
 .bg-secondary {
