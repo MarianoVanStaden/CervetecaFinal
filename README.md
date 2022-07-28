@@ -19,5 +19,5 @@ Funcionalidades del sitio: Las principales funcionalidades del sitio son las de 
 
 Tecnologías utilizadas: HTML CSS JAVASCRIPT BOOTSTRAP Y algunas librerías como Sweet Alert, Toastify Js, etc.
 
-Acerca mío: Mi nombre es Mariano Van Staden,  tengo un grado en administración de recursos navales y además me estoy formando como un Front-End Web Developer. Actualmente estoy ampliando mis conocimientos en JavaScript, para poder especializarme en React JS y Angular. Mi objetivo a futuro es poder adquirir proyectos como desarrollador junior. 
+Acerca mío: Mi nombre es Mariano Van Staden,  tengo una licenciatura en administración de recursos navales y además me estoy formando como un Front-End Web Developer. Actualmente estoy ampliando mis conocimientos en JavaScript, para poder especializarme en React JS y Angular. Mi objetivo a futuro es poder adquirir proyectos como desarrollador junior. 
 Espero que hayas disfrutado este proyecto.
