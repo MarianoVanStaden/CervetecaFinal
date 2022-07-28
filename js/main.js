@@ -11,38 +11,38 @@
 // let productos = [
 //   {
 //     id: "1",
-//     nombre: "Manzana roja",
-//     precio: 15000,
+//     nombre: "Kolsch",
+//     precio: 1200,
 //     img: "https://www.alpuntodeventa.com.ar/wp-content/uploads/2297.jpg.webp",
 //     description: "Lorem ipsum dolor. ",
-//     category: "Fruta",
+//     category: "Cerveza",
 //     cantidad:0,
 //   },
 //   {
 //     id: "2",
-//     nombre: "Banana",
-//     precio: 2000,
+//     nombre: "Indian Pale Ale",
+//     precio: 3000,
 //     img: "https://img.freepik.com/vector-gratis/racimo-platano-amarillo-maduro-vector-aislado-sobre-fondo-blanco_1284-45456.jpg",
 //     description: "Lorem ipsum dolor. ",
-//     category: "Fruta",
+//     category: "Cerveza",
 //     cantidad:0,
 //   },
 //   {
 //     id: "3",
-//     nombre: "Naranja",
-//     precio: 80,
+//     nombre: "Porter",
+//     precio: 2600,
 //     img: "https://imgs.globovision.com/Lyd_jKnB8qhC_YJOSxZJNgE1_ls=/600x0/smart/d5aaf1dbef774fedb10f2a1e95ffe53e",
 //     description: "Lorem ipsum dolor. ",
-//     category: "Fruta",
+//     category: "Cerveza",
 //     cantidad:0,
 //   },
 //   {
 //     id: "4",
-//     nombre: "Mandarina",
-//     precio: 8033,
+//     nombre: "Scottish",
+//     precio: 2400,
 //     img: "https://cdn2.salud180.com/sites/default/files/styles/medium/public/field/image/2017/11/mandraina.jpg",
 //     description: "Lorem ipsum dolor. ",
-//     category: "Fruta",
+//     category: "Cerveza",
 //     cantidad:0,
 //   },
 // ];
@@ -71,11 +71,11 @@ const buscarNombreProducto = (nombre) => {
   } else {
     Swal.fire({
       icon: "error",
-      title: "Ups! No lo tenemos",
-      text: "prueba con otra fruta",
+      title: "Ups! No la tenemos",
+      text: "prueba con otra cerveza",
     })
     limpiarContenido();
-    console.log("No se encontro el producto buscado");
+    console.log("No se encontro la cerveza buscada");
     desplegarProductos(productos);
   }
 };
